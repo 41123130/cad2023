@@ -9,3 +9,7 @@ channel = "stable-23_05"
 [deployment]
 run = ["sh", "-c", "python3 main.py"]
 deploymentTarget = "cloudrun"
+
+[auth]
+pageEnabled = true
+buttonEnabled = false
